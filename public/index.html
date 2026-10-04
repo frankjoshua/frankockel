@@ -3,46 +3,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Frank–Ockel Family Pets</title>
-  <meta name="description" content="Memorials for Charlie, Baxter, Archie and Boots, the pets of Josh Frank and Laura Ockel.">
-  <meta property="og:title" content="The Frank–Ockel Family Pets">
+  <title>Frank–Ockel Pets</title>
+  <meta name="description" content="Archie, Baxter, Charlie and Boots: the pets of Josh Frank and Laura Ockel.">
+  <meta property="og:title" content="Frank–Ockel Pets">
   <meta property="og:image" content="https://frankockel.com/img/charlie.jpg">
+  <link rel="preload" href="fonts/shrikhand.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/site.css">
+  <style>:root { --pet: #ff9e8a; --pet-soft: #ffe6df; --pet-deep: #24130f; }</style>
 </head>
 <body>
-  <header class="site-head">
+  <header class="hero solo">
     <div class="wrap">
-      <h1>The Frank–Ockel Family Pets</h1>
-      <p class="epitaph">Loved, and remembered.</p>
+      <div>
+        <p class="eyebrow">The hall of fame</p>
+        <h1 class="name">Frank–Ockel Pets</h1>
+        <p class="epitaph">Good pets. Great times.</p>
+      </div>
     </div>
   </header>
 
   <main>
     <div class="wrap">
-      <ul class="photos">
-        <li>
-          <figure>
-            <a href="https://charlieockel.com"><img src="img/charlie.jpg" alt="Charlie"></a>
-            <figcaption><a href="https://charlieockel.com"><strong>Charlie Ockel</strong></a><br>August 2011 – April 18th, 2020</figcaption>
-          </figure>
+      <ul class="crew tilts">
+        <li style="--card: #ccccff">
+          <a class="friend-link" href="https://archietherat.com">
+            <figure class="snap">
+              <img src="img/archie.jpg" alt="Archie">
+              <figcaption><span class="pet-name">Archie the Rat</span><span class="pet-dates">Passed away January 14, 2010</span><span class="visit">Visit Archie →</span></figcaption>
+            </figure>
+          </a>
         </li>
-        <li>
-          <figure>
-            <a href="https://baxterfrank.com"><img src="img/baxter.jpg" alt="Baxter"></a>
-            <figcaption><a href="https://baxterfrank.com"><strong>Baxter Frank</strong></a><br>Born between 2001 and 2003 – Died 12/21/2015</figcaption>
-          </figure>
+        <li style="--card: #7cc6fe">
+          <a class="friend-link" href="https://baxterfrank.com">
+            <figure class="snap">
+              <img src="img/baxter.jpg" alt="Baxter">
+              <figcaption><span class="pet-name">Baxter Frank</span><span class="pet-dates">Born between 2001 and 2003 – Died 12/21/2015</span><span class="visit">Visit Baxter →</span></figcaption>
+            </figure>
+          </a>
         </li>
-        <li>
-          <figure>
-            <a href="https://archietherat.com"><img src="img/archie.jpg" alt="Archie"></a>
-            <figcaption><a href="https://archietherat.com"><strong>Archie the Rat</strong></a><br>Passed away January 14, 2010</figcaption>
-          </figure>
+        <li style="--card: #ffc53d">
+          <a class="friend-link" href="https://charlieockel.com">
+            <figure class="snap">
+              <img src="img/charlie.jpg" alt="Charlie">
+              <figcaption><span class="pet-name">Charlie Ockel</span><span class="pet-dates">August 2011 – April 18th, 2020</span><span class="visit">Visit Charlie →</span></figcaption>
+            </figure>
+          </a>
         </li>
-        <li>
-          <figure>
-            <a href="https://bootsockel.com"><img src="img/boots.jpg" alt="Boots"></a>
-            <figcaption><a href="https://bootsockel.com"><strong>Boots Ockel</strong></a></figcaption>
-          </figure>
+        <li style="--card: #7ed9a6">
+          <a class="friend-link" href="https://bootsockel.com">
+            <figure class="snap">
+              <img src="img/boots.jpg" alt="Boots">
+              <figcaption><span class="pet-name">Boots Ockel</span><span class="visit">Visit Boots →</span></figcaption>
+            </figure>
+          </a>
         </li>
       </ul>
     </div>
@@ -50,7 +63,7 @@
 
   <footer class="site-foot">
     <div class="wrap">
-      <p>Josh Frank &amp; Laura Ockel</p>
+      <p class="paws">Josh Frank &amp; Laura Ockel</p>
     </div>
   </footer>
 </body>
